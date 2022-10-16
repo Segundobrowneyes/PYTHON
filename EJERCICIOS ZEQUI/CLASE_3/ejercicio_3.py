@@ -38,15 +38,12 @@ Mientras el lobo no está
 Si, y ya salgo para comermelos!
 @author: Madmax
 """
-while not encontrado:
-    numero_usuario=int(input("Introduce el numero buscado: "))
-    if numero_usuario>numero_buscado:
-        print("El numero que buscas es menor")
-        intentos=intentos+1
-    elif numero_usuario<numero_buscado:
-        print("El numero que buscas es mayor")
-        intentos=intentos+1
-    else:
-        encontrado=True
-print("Has acertado, el numero correcto es ", numero_usuario, "te ha llevado",
-intentos, "intentos")
+pregunta = int
+esta = int
+pregunta = input("Jugemos en el bosque Mientras el lobo no está Jugemos en el bosque Mientras el lobo no está ")
+while not esta:
+   if pregunta =="NO":
+  print("NO, y ya salgo para comermelos!")
+       else:
+        esta=True
+        print("Si, y ya salgo para comermelos!")
